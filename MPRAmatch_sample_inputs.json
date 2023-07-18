@@ -1,0 +1,8 @@
+{
+  "MPRAmatch.read_a": "/full/path/to/read/1.fastq.gz",
+  "MPRAmatch.read_b": "/full/path/to/read/2.fastq.gz",
+  "MPRAmatch.reference_fasta": "/full/path/to/reference/.fasta",
+  "MPRAmatch.working_directory": "/full/path/to/script/directory",
+  "MPRAmatch.out_directory": "/full/path/to/output/directory",
+  "MPRAmatch.id_out": "overall project ID"
+}
