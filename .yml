@@ -2,7 +2,7 @@
   workflows:
   name: example_1
     subclass: WDL
-    primaryDescriptorPath:terra_testing1/MPRAmatch.wdl
+    primaryDescriptorPath:/MPRAmatch.wdl
     testParameterFiles:
-      - terra_testing1/MPRAmatch_inputs.json
+      - /MPRAmatch_inputs.json
   
