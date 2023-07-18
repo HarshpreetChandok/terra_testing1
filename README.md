@@ -164,4 +164,3 @@ The above image is a graphical representation of the MPRAcount pipeline. The til
 
 The array of fastq files are processed in parallel and the barcodes, along with the barcode-oligo dictionary, are passed to a script which associates the barcodes with the matching oligo. These files are then passed to a script which organises the matched barcodes and oligos into a count table.
 
-Added yml file
