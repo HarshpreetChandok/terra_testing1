@@ -1,0 +1,8 @@
+  version: 1.0
+  workflows:
+  name: example_1
+    subclass: WDL
+    primaryDescriptorPath:terra_testing1/MPRAmatch.wdl
+    testParameterFiles:
+      - terra_testing1/MPRAmatch_inputs.json
+  
