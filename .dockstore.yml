@@ -1,8 +1,8 @@
 version: 1.0
 workflows: 
-name: example_1
-  subclass: WDL
-  primaryDescriptorPath:/MPRAmatch.wdl
-  testParameterFiles:
-    - /MPRAmatch_inputs.json
-  
+  - subclass: WDL
+    primaryDescriptorPath:/MPRAmatch.wdl
+    testParameterFiles:
+      - /MPRAmatch_inputs.json
+    name: example_1
+
